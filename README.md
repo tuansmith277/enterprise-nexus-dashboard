@@ -1,9 +1,18 @@
-<<<<<<< HEAD
-# Vue 3 + TypeScript + Vite
+# 🚀 Enterprise Nexus Dashboard
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+> Hệ thống Quản trị Tài chính & Vận hành Real-time cấp doanh nghiệp. 
+> Dự án được xây dựng với kiến trúc Scalable, tối ưu Core Web Vitals và tuân thủ các tiêu chuẩn bảo mật khắt khe.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
-=======
-# enterprise-nexus-dashboard
->>>>>>> 7ea121fabf53958ab67e6249dc8c95acca35d862
+## 🛠 Tech Stack (Công nghệ cốt lõi)
+
+- **Core:** Vue 3 (Composition API / `<script setup>`)
+- **Language:** TypeScript (Strict Mode)
+- **Build Tool:** Vite
+- **State Management:** Pinia
+- **Routing:** Vue Router 4
+- **Styling:** Tailwind CSS
+- **Testing:** Vitest (Unit) & Playwright (E2E) *(Upcoming)*
+
+## 📐 Kiến Trúc Dự Án (Architecture)
+
+Dự án áp dụng mô hình **Feature-Driven Architecture** (Kiến trúc hướng tính năng) để đảm bảo khả năng mở rộng (Scalability) khi team tăng lên hàng chục người và dự án phình to ra hàng trăm màn hình.
