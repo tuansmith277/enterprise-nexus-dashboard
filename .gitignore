@@ -1,4 +1,5 @@
-# Logs
+
+#Logs
 logs
 *.log
 npm-debug.log*
@@ -7,16 +8,35 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+node_modules/
+.pnp
+.pnp.js
+.npm/
+dist/
+dist-ssr/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+*.local
+.env
+.env.local
+.env.*.local
+
+coverage/
+playwright-report/
+test-results/
+.playwright/
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
 *.suo
 *.ntvs*
 *.njsproj
